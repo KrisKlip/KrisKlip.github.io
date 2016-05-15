@@ -5,18 +5,18 @@ html{
 }
 body{
 	text-align: center;
-	background-image: url("../img/hatter.jpg");
+	/*background-image: url("../img/hatter.jpg");
 	background-size: 100%;
+	background-attachment: fixed;*/
 
 }
 #background {
-	position: absolute;
+	position: fixed;
 	z-index: -2;
 	left: 0;
 	opacity: 0.5;
 	height: 100%;
 	width: 100%;
-	display: none;
 
 }
 #kristofer {

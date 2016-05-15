@@ -150,6 +150,8 @@ function  moveToTop(){
   });
 }
 function navFade(){
+  $("#kristofer").css("position", "absolute");
+  $("#meImg").css("position", "absolute");
   $("#nav1").fadeTo(1500, 1 );
   setTimeout(function(){
     $("#nav2").fadeTo(1500, 1 );
