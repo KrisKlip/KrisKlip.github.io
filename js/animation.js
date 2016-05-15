@@ -20,8 +20,8 @@ $( document ).ready(function() {
     }, 5000);
     setTimeout(function(){
       aboutFadeIn();
+      navCheck();
       active1 = true;
-      console.log(active1);
     }, 7200);
 
     // if (active1 == true){
@@ -84,6 +84,7 @@ $( document ).ready(function() {
       $("#nav3").animate({ fontSize : '1em' });
       $("#nav4").animate({ fontSize : '1em' });
       aboutFadeIn();
+      contactFadeOut();
       //console.log(active1);
     });
     $("#nav2").click(function() {
@@ -96,6 +97,7 @@ $( document ).ready(function() {
       $("#nav4").animate({ fontSize : '1em' });
       //console.log(active1);
       aboutFadeOut();
+      contactFadeOut();
     });
     $("#nav3").click(function() {
       active1 = false;
@@ -106,6 +108,7 @@ $( document ).ready(function() {
       $("#nav2").animate({ fontSize : '1em' });
       $("#nav4").animate({ fontSize : '1em' });
       aboutFadeOut();
+      contactFadeOut();
     });
     $("#nav4").click(function() {
       active1 = false;
@@ -116,6 +119,7 @@ $( document ).ready(function() {
       $("#nav2").animate({ fontSize : '1em' });
       $("#nav3").animate({ fontSize : '1em' });
       aboutFadeOut();
+      contactFadeIn();
     });
     
     
@@ -172,13 +176,35 @@ function aboutFadeIn(){
   $("#pageContent").fadeTo(1000, 1 );
   $("#who").css("display","block");
   $("#pageContent").css("display","block");
+  $("#who").text("About Me");
 }
 function aboutFadeOut(){
   $("#who").fadeTo(200, 0 );
   $("#pageContent").fadeTo(200, 0 );
   setTimeout(function(){
-      $("#who").css("display","none");
       $("#pageContent").css("display","none");
     }, 200);
+  
+}
+function contactFadeIn(){
+  //$("#who").fadeTo(1000, 1 );
+  $("#contactContent").fadeTo(1000, 1 );
+  //$("#who").css("display","block");
+  $("#contactContent").css("display","block");
+  //$("#who").text("Experience");
+}
+function contactFadeOut(){
+  //$("#who").fadeTo(200, 0 );
+  $("#contactContent").fadeTo(200, 0 );
+  setTimeout(function(){
+      $("#contactContent").css("display","none");
+    }, 200);
+  
+}
+function navCheck(){
+  $("#nav1").css("opacity", 1);
+  $("#nav2").css("opacity", 1);
+  $("#nav3").css("opacity", 1);
+  $("#nav4").css("opacity", 1);
   
 }
