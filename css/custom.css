@@ -5,14 +5,18 @@ html{
 }
 body{
 	text-align: center;
+	background-image: url("../img/hatter.jpg");
+	background-size: 100%;
 
 }
 #background {
 	position: absolute;
 	z-index: -2;
 	left: 0;
-	opacity: 0.3;
+	opacity: 0.5;
+	height: 100%;
 	width: 100%;
+	display: none;
 
 }
 #kristofer {
@@ -46,24 +50,41 @@ body{
 	left: 50%;
 }
 #container{
+	margin: 0 auto;
 	padding: 20px;
 	height: auto;
-	max-width: 1200px;
-	border: 0px solid black;
-	position: fixed;
-	left: 25%;
+	width: 100%;
+	position: relative;
 	top:150px;
+	border: 0px solid black;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,0,0);
+	transform: translate3d(-50%,0,0);
 
+}
+#navigation {
+	position: fixed;
+	width: 100%;
+	border: 0px solid black;
+	
+	left: 50%;
+	-webkit-transform: translate3d(-50%,0,0);
+	transform: translate3d(-50%,0,0);
 }
 #navigation nav	{
 	display: inline-block;
-	margin-left: 50px;
-	margin-right: 50px;
+	width: 200px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	opacity: 0;
 	font-weight: 500;
 	font-size: 1em;
+
 }
 #pageContent {
+	position: relative;
+	margin-top: 100px;
+	opacity: 0;
 	margin: auto;
 	/*border: 1px solid black;*/
 	max-width: 945px;
@@ -71,7 +92,7 @@ body{
 	height: auto;
 	padding-left: 20px;
 	padding-right: 20px;
-	margin-top: 200px;
+	
 	
 }
 #aboutText {
@@ -85,10 +106,16 @@ body{
 	margin-top: 50px;
 }
 #who {
+	opacity: 0;
+	margin: 0 auto;
 	border-radius: 5%;
 	border-bottom: 2px solid black;
 	font-size: 2.5em;
 	color: #000;
+	text-align: left;
+	margin-top: 75px;
+	max-width: 945px;
+
 }
 #whoFocus{
 	font-size: 1.5em;
@@ -105,4 +132,19 @@ body{
 	color: #000;
 	margin-bottom: 40px;
 	margin-top: 30px;
+}
+
+@media (max-width: 950px) {
+	@keyframes example {
+	    0%   {margin-left: 220px}
+	    100% {margin-left: 20px}
+}
+  #meImg {
+    display: none;
+  }
+  #klipfel{
+  	animation-name: example;
+  	animation-duration: 1s;
+  	margin-left: 20px !important;
+  }
 }
