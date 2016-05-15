@@ -4,7 +4,7 @@
 	width: 100%;
 	background: #333;
 	overflow: hidden;
-	height: 150px;
+	height: 0px;
 	background-position: center center;
 	z-index: 1;
 	border-top: 3px solid black;

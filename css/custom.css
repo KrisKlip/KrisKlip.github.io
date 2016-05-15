@@ -1,9 +1,19 @@
 html{
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
+
 }
 body{
 	text-align: center;
+
+}
+#background {
+	position: absolute;
+	z-index: -2;
+	left: 0;
+	opacity: 0.3;
+	width: 100%;
+
 }
 #kristofer {
 	opacity: 0;
@@ -36,12 +46,13 @@ body{
 	left: 50%;
 }
 #container{
-	margin: 0 auto;
-	text-align: center;
 	padding: 20px;
 	height: auto;
 	max-width: 1200px;
 	border: 0px solid black;
+	position: fixed;
+	left: 25%;
+	top:150px;
 
 }
 #navigation nav	{
@@ -51,4 +62,47 @@ body{
 	opacity: 0;
 	font-weight: 500;
 	font-size: 1em;
+}
+#pageContent {
+	margin: auto;
+	/*border: 1px solid black;*/
+	max-width: 945px;
+	text-align: left;
+	height: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 200px;
+	
+}
+#aboutText {
+	text-transform: none;
+	font-size: 1.4em;
+	letter-spacing: 1px;
+	color: #555;
+	line-height: 1.6em;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 50px;
+}
+#who {
+	border-radius: 5%;
+	border-bottom: 2px solid black;
+	font-size: 2.5em;
+	color: #000;
+}
+#whoFocus{
+	font-size: 1.5em;
+	color: #000;
+	line-height: 1.7em;
+}
+#whoSecondary{
+	
+}
+.icons{
+	margin-left: 34px;
+	margin-right: 34px;
+	text-align: center;
+	color: #000;
+	margin-bottom: 40px;
+	margin-top: 30px;
 }
