@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<title>
+</title>
+<meta charset = "utf-8">
+</head>
+<body>
+	<img id = "bird1"  onmouseover="rollover()"  src="http://icons.iconarchive.com/icons/artdesigner/tweet-my-web/256/single-bird-icon.png">
+	<img id = "icon"  onmouseover="rollover1()"  src="http://www.clker.com/cliparts/Z/7/U/6/n/R/single-user-instant-messenger-icon-md.png">
+	<img id = "icon2"  onmouseover="rollover2()"  src="http://icons.iconarchive.com/icons/mazenl77/I-like-buttons-3a/512/Cute-Ball-Go-icon.png">
+	<img id = "big" src="http://www.planwallpaper.com/static/images/magic-of-blue-universe-images.jpg">
+	<script type="text/javascript">
+	var rollon1 = new Image();
+	var rolloff1 = new Image();
+	rollon1.src = "http://www.planwallpaper.com/static/images/magic-of-blue-universe-images.jpg";
+	rolloff1.src = "http://www.gettyimages.co.uk/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg";
+	var rollon2 = new Image();
+	rollon2.src = "http://www.goodlightscraps.com/content/nature/nature-images-86.jpg";
+	var rollon3 = new Image();
+	rollon3.src = "http://digital-photography-school.com/wp-content/uploads/flickr/205125227_3f160763a0_o.jpg";
+
+	function rollover(){
+		document.getElementById("big").src = rollon1.src;
+	}
+	function rollout(){
+		document.getElementById("big").src = rolloff1.src;
+	}
+	function rollover1(){
+		document.getElementById("big").src = rollon2.src;
+	}
+	function rollout1(){
+		document.getElementById("big").src = rolloff1.src;
+	}
+	function rollover2(){
+		document.getElementById("big").src = rollon3.src;
+	}
+
+	</script>
+</body>
+</html>

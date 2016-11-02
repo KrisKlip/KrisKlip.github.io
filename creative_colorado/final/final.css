@@ -1,0 +1,143 @@
+html, body {
+	background-image: url("background.png");
+	padding: 0px;
+	margin-top: 0px;
+	text-align: center;
+}
+#wrapper {
+	margin: 0 auto;
+	max-width: 960px;
+	background-color: #e3e3e3;
+	padding: 0px;
+	-webkit-box-shadow: 0px 7px 25px 3px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 7px 25px 3px rgba(0,0,0,0.75);
+	box-shadow: 0px 7px 25px 3px rgba(0,0,0,0.75);
+}
+#header {
+	height: auto;
+	background-color: #666;
+	padding-bottom: 0px;
+}
+#nav {
+	text-align: center;
+	margin-top: 0px;
+	height: 40px;
+	background-color: black;
+	padding: 0px;
+}
+#content{
+	height: auto;
+	background-color: #ccc;
+}
+#footer {
+	padding-top: 20px;
+	height: 100px;
+	background-color: #000;
+}
+.links {
+	display: inline-block;
+	color: #fff;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 10px;
+	text-decoration: none;
+}
+#title1 {
+	font-family: arial;
+	font-weight: bold;
+}
+a{
+	text-decoration: none;
+}
+.navL{
+
+	color: #cc9933;
+}
+.navL:hover{
+	color: #f4c462;
+
+}
+.navL:active{
+	color: #ffffcc;
+
+}
+.navL:visited{
+	color: #61420a;
+
+}
+#headImg {
+	position: relative;
+	width: 100%;
+	margin-bottom: -6px;
+}
+.headTxt{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+.title {
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+h1 {
+  margin: 0;
+  white-space: nowrap;
+}
+h2{
+	font-size: 15px;
+}
+iframe {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#sectionblock{
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+.section {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 15px;
+	float: left;
+	display: inline-block;
+	width: 26.3%;
+	margin-left: 20px;
+	height: 470px;
+	background-color: #fff;
+}
+.sectionTxt {
+	font-size: 11pt;
+	line-height: 30px;
+	font-family: arial;
+	margin-top: 30px;
+	text-align: left;
+}
+h3 {
+	font-family: arial;
+	text-align: left;
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	float: left;
+	color: #999;
+}
+.wiki{
+	float: left;
+	text-align: left;
+	text-decoration: none;
+	color: orange;
+}
+#footerTxt {
+	margin-top: 0px;
+	color: #fff;
+}
+
+
+
+
+

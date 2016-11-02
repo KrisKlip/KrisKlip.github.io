@@ -1,0 +1,111 @@
+.carousel-control {
+	height: 100%;
+}
+.carousel,
+.item,
+.active {
+    margin-top: 30px;
+    height: 100%;
+}
+.carousel-inner {
+    height: 100%;
+}
+#page-top {
+	margin-top: 30px;
+	height: 60%;
+}
+#portfolio {
+	background-color: rgba(26, 26, 26, 0.82);
+	color: #fff;
+}
+
+hr	{
+	border: none;
+    height: 3px;
+    color: #666; /* old IE */
+    background-color: #666; /* Modern Browsers */
+}
+#about {
+	height: auto;
+	padding-top: 20px;
+	background-color:rgba(26, 26, 26, 0.82);
+}
+.navbar-default {
+	background-color: #272727;
+}
+.navbar-fixed-top {
+	padding: 5px 0px;
+}
+.navbar-fixed-top.navbar-shrink {
+	padding:0px 0px;
+}
+.text-center {
+	margin-top: 0px;
+}
+
+footer .footer-above {
+	padding-top: 15px;
+	background-color: #272727;
+}
+footer .footer-col {
+	margin-bottom: 15px;
+}
+
+.col-lg-4 {
+	width: 100%;
+}
+.col-lg-offset-2 {
+	margin-left: 5px;
+}
+#contact {
+	background-color: #F3F3F3;
+}
+form .row:first-child .floating-label-form-group {
+	border-top: 1px solid #666;
+
+}
+.floating-label-form-group {
+	border-top: 1px solid #666;
+}
+#message {
+	border-bottom: 1px solid #666;
+
+}
+footer {
+	margin-bottom: 0px;
+}
+.row {
+	text-align: center;
+}
+iframe {
+	width: 90%;
+}
+
+#calendar {
+	border-right: 3px solid #666;
+	border-left: 3px solid #666;
+}
+#news {
+	text-align: left;
+}
+#news p {
+	font-size: 30px;
+}
+#news ul li {
+	list-style-type: none;
+}
+.demo-gallery {
+	text-align: center !important;
+}
+
+#about-text {
+	text-align: left;
+}
+
+#link {
+	color: #2C3E50;
+}
+section {
+	padding-bottom: 100px;
+	padding-top: 50px;
+}

@@ -129,6 +129,21 @@ body{
 #whoSecondary{
 	
 }
+#projects{
+	display: none;
+	opacity: 0;
+}
+.projectDiv{
+	border: 2px solid black;
+	display: inline-block;
+	width: 25%;
+	height: 240px;
+	vertical-align: top;
+	margin-bottom: 20px;
+}
+.projectDiv a{
+	display: block;
+}
 .icons{
 	margin-left: 34px;
 	margin-right: 34px;

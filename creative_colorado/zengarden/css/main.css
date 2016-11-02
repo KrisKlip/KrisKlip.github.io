@@ -1,0 +1,288 @@
+body, html {
+	padding: 0 auto;
+	margin: 0 auto;
+	font-family: Tahoma,Verdana,Segoe,sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+#wrapper {
+	padding-top: 70px;
+}
+#content{
+	border-top: 6px solid #2A2A2A;
+	text-align: center;
+	padding: 0px;
+	font-size: 20px;
+	background-color: transparent; rgba(151, 147, 173, 0.8);
+	margin: 0 auto;
+	margin-top: 10px;
+	width:100%;
+	z-index: 0;
+}
+#background{
+	width: 100%;
+	z-index: -5;
+	position: fixed;
+}
+#header {
+	margin: 0 auto;
+	width: 50%;
+	background-color: rgba(136, 136, 155, 0.5);
+	margin-top: -50px;
+	text-align: center;
+	border-radius: 7px;
+	-webkit-box-shadow: 0px 13px 34px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 13px 34px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 13px 34px 0px rgba(0,0,0,0.75);
+}
+#title {
+	margin-top: 0px;
+	width: 40%;
+}
+#title-div{
+	margin: 0 auto;
+	margin-top: -2px;
+	width: 65%;
+	border: 2px solid #000;
+	border-radius: 7px;
+	background-color: rgba(255, 196, 169, 0.6);
+	-webkit-box-shadow: 0px 13px 34px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 13px 34px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 13px 34px 0px rgba(0,0,0,0.75);
+}
+.section {
+	margin: 20px;
+	text-align: justify;
+	padding: 10px;
+	vertical-align: top;
+	background-color: transparent;
+	margin-top: 0px;
+	width: 30%;
+	display: inline-block;
+}
+#last {
+	width: 63%;
+}
+#image {
+	z-index: -5;
+	position: fixed;
+}
+#cover {
+	margin-top: 0px;
+}
+#section1 {
+	position: relative;
+	background-color: rgba(136, 136, 155, 0.9);
+	color: #000;
+	
+}
+#section2 {
+	position: relative;
+	color: #000;
+	background-color: rgba(164, 164, 177, 0.9);
+	
+}
+#section3 {
+	position: relative;
+	color: #000;
+	background-color: rgba(149, 149, 177, 0.9);
+
+}
+p{
+	padding: 30px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	border-radius: 7px;
+	background-color: rgba(255, 255, 255, 0.65);
+	-webkit-box-shadow: 0px 13px 34px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 13px 34px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 13px 34px 0px rgba(0,0,0,0.75);
+}
+p:hover {
+	-webkit-box-shadow: 0px 13px 34px 0px rgba(0,0,0,0.0);
+-moz-box-shadow: 0px 13px 34px 0px rgba(0,0,0,0.0);
+box-shadow: 0px 13px 34px 0px rgba(0,0,0,0.0);
+}
+h2 {
+	text-decoration: underline;
+	color: #000;
+	font-size: 40px;
+}
+header img {
+	width: 90%;
+}
+.animated1 { 
+    -webkit-animation-duration: 5s; 
+    animation-duration: 5s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+    animation-iteration-count:infinite; 
+    -webkit-animation-iteration-count:infinite; 
+} 
+.animated2 { 
+    -webkit-animation-duration: 4s; 
+    animation-duration: 4s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+    animation-iteration-count:infinite; 
+    -webkit-animation-iteration-count:infinite; 
+} 
+.animated3 { 
+    -webkit-animation-duration: 3s; 
+    animation-duration: 3s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+    animation-iteration-count:infinite; 
+    -webkit-animation-iteration-count:infinite; 
+} 
+.animated4 { 
+    -webkit-animation-duration: 4.5s; 
+    animation-duration: 4.5s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+    animation-iteration-count:infinite; 
+    -webkit-animation-iteration-count:infinite; 
+} 
+
+@-webkit-keyframes pulse { 
+    0% { -webkit-transform: scale(1); } 
+    50% { -webkit-transform: scale(1.1); } 
+    100% { -webkit-transform: scale(1); } 
+} 
+@keyframes pulse { 
+    0% { transform: scale(1); } 
+    50% { transform: scale(1.1); } 
+    100% { transform: scale(1); } 
+} 
+.pulse { 
+    -webkit-animation-name: pulse; 
+    animation-name: pulse; 
+}
+.pulse:hover { 
+    -webkit-animation-name: none; 
+    animation-name: none; 
+}
+
+#learn {
+	text-decoration: underline;
+	text-align: center;
+}
+.links {
+	padding: 5px;
+	padding-right: 35px;
+	padding-left: 35px;
+	text-align: center;
+	background-color: #23234A;
+	width: auto;
+	height: 30px;
+	border-radius: 7px;
+	-webkit-box-shadow: 0px 13px 34px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 13px 34px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 13px 34px 0px rgba(0,0,0,0.75);
+}
+#wiki {
+	float: right;
+}
+#wiki2 {
+	float: left;
+	
+}
+#wiki3 {
+	float: right;
+}
+.left { 
+    -webkit-animation-duration: 9s; 
+    animation-duration: 9s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+    animation-iteration-count:infinite; 
+    -webkit-animation-iteration-count:infinite; 
+} 
+.left2 { 
+    -webkit-animation-duration: 7s; 
+    animation-duration: 7s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+    animation-iteration-count:infinite; 
+    -webkit-animation-iteration-count:infinite; 
+} 
+
+@-webkit-keyframes fadeOutLeftBig { 
+    0% { 
+        opacity: 1; 
+        -webkit-transform: translateX(0); 
+    } 
+    100% { 
+        opacity: 0; 
+        -webkit-transform: translateX(-2000px); 
+    } 
+} 
+@keyframes fadeOutLeftBig { 
+    0% { 
+        opacity: 1; 
+        transform: translateX(0); 
+    } 
+    100% { 
+        opacity: 0; 
+        transform: translateX(-2000px); 
+    } 
+} 
+.fadeOutLeftBig { 
+    -webkit-animation-name: fadeOutLeftBig; 
+    animation-name: fadeOutLeftBig; 
+}
+.right { 
+    -webkit-animation-duration: 10s; 
+    animation-duration: 10s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+    animation-iteration-count:infinite; 
+    -webkit-animation-iteration-count:infinite; 
+} 
+.right2 { 
+    -webkit-animation-duration: 8s; 
+    animation-duration: 8s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+    animation-iteration-count:infinite; 
+    -webkit-animation-iteration-count:infinite; 
+} 
+
+@-webkit-keyframes fadeOutRightBig { 
+    0% { 
+        opacity: 1; 
+        -webkit-transform: translateX(0); 
+    } 
+    100% { 
+        opacity: 0; 
+        -webkit-transform: translateX(2000px); 
+    } 
+} 
+@keyframes fadeOutRightBig { 
+    0% { 
+        opacity: 1; 
+        transform: translateX(0); 
+    } 
+    100% { 
+        opacity: 0; 
+        transform: translateX(2000px); 
+    } 
+} 
+.fadeOutRightBig { 
+    -webkit-animation-name: fadeOutRightBig; 
+    animation-name: fadeOutRightBig; 
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+#cpy {
+	padding-top: 45px;
+	text-align: center;
+	width: 100%;
+	height: 70px;
+	background-color: rgba(121, 120, 159, 0.91);
+}

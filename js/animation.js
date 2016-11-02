@@ -85,6 +85,7 @@ $( document ).ready(function() {
       $("#nav4").animate({ fontSize : '1em' });
       aboutFadeIn();
       contactFadeOut();
+      projectsFadeOut()
       //console.log(active1);
     });
     $("#nav2").click(function() {
@@ -98,6 +99,7 @@ $( document ).ready(function() {
       //console.log(active1);
       aboutFadeOut();
       contactFadeOut();
+      projectsFadeOut()
     });
     $("#nav3").click(function() {
       active1 = false;
@@ -109,6 +111,7 @@ $( document ).ready(function() {
       $("#nav4").animate({ fontSize : '1em' });
       aboutFadeOut();
       contactFadeOut();
+      projectsFadeIn();
     });
     $("#nav4").click(function() {
       active1 = false;
@@ -120,6 +123,7 @@ $( document ).ready(function() {
       $("#nav3").animate({ fontSize : '1em' });
       aboutFadeOut();
       contactFadeIn();
+      projectsFadeOut()
     });
     
     
@@ -200,6 +204,22 @@ function contactFadeOut(){
       $("#contactContent").css("display","none");
     }, 200);
   
+}
+function projectsFadeIn(){
+  $("#projects").fadeTo(1000, 1 );
+  $("#projects").css("display","block");
+  // $("#pageContent").fadeTo(1000, 1 );
+  // $("#who").css("display","block");
+  // $("#pageContent").css("display","block");
+  // $("#who").text("Projects");
+}
+function projectsFadeOut(){
+  $("#projects").fadeTo(200, 0 );
+  $("#projects").css("display","none");
+  // $("#pageContent").fadeTo(1000, 1 );
+  // $("#who").css("display","block");
+  // $("#pageContent").css("display","block");
+  // $("#who").text("Projects");
 }
 function navCheck(){
   $("#nav1").css("opacity", 1);

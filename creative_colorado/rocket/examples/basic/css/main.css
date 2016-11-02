@@ -1,0 +1,138 @@
+html, body {
+  padding: 0;
+  margin: 0 auto;
+   font-family: "Tall Films";
+   color: #fff;
+   text-align: center;
+}
+html {
+  background-color: #4CBAF7;
+}
+#astronaut {
+  margin-top: 560px;
+  position: absolute;
+  left: 44%;
+}
+#rocket {
+  width: 20%;
+  margin-top: 420px;
+  position: absolute;
+  left: 40.3%;
+}
+#eject {
+ height: 1px;
+  background-color: transparent;
+}
+#rotate2 {
+ height: 1px;
+  background-color: transparent;
+}
+#grass {
+  margin-top: -50px;
+  width: 100%;
+  position: absolute;
+  z-index: -10;
+}
+#success {
+  opacity: 0;
+  margin-top: -350px;
+  position: absolute;
+  margin-left: 200px;
+}
+#balloons {
+  opacity: 0;
+  margin-top: -390px;
+  position: absolute;
+  margin-left: -500px;
+  width: 200px;
+}
+#cloud1 {
+  width: 800px;
+  position: relative;
+}
+#cloud2 {
+  width: 1000px;
+  margin-top: -50px;
+}
+#cloud3 {
+  width: 700px;
+  margin-left: 300px;
+  margin-bottom: 500px;
+  position: relative;
+  z-index: -1
+}
+#cloud4 {
+  width: 700px;
+  position: relative;
+  z-index: -1;
+}
+#cloud5 {
+  width: 1100px;
+  margin-top: -50px;
+}
+#cloud6 {
+  width: 600px;
+  margin-left: 500px;
+  margin-bottom: 500px;
+  position: relative;
+  z-index: -1
+}
+#stars3 {
+  position: relative;
+}
+#clouds {
+ margin-top: -600px;
+}
+#clouds2 {
+ margin-top: -1500px;
+}
+#stars {
+  position: relative;
+  z-index: -1;
+ margin-top: -1500px;
+}
+#stars_2 {
+  position: relative;
+  z-index: -1;
+ margin-top: -1500px;
+}
+#color-change {
+  height: 1px;
+  background-color: transparent;
+  margin-bottom: -10000px;
+}
+.bird {
+  margin-bottom: -1000px;
+  width: 90px;
+}
+#bird1 {
+  position: relative;
+  margin-left: 200px;
+  z-index: -1;
+}
+#bird2 {
+  position: relative;
+  margin-right: -750px;
+}
+#bird3 {
+  position: relative;
+  margin-right: 850px;
+}
+#bird4 {
+  position: relative;
+  margin-left: 650px;
+}
+#bird5 {
+  position: relative;
+  margin-right: 250px;
+  
+}
+.stars {
+  position: relative;
+  margin-bottom: -2900px;
+}
+#rotate {
+  height: 1px;
+  background-color: transparent;
+  margin-bottom: -7000px;
+}
